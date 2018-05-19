@@ -1,0 +1,5 @@
+<root>
+    <item name='android.content.AsyncQueryHandler'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

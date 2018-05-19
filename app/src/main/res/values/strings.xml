@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">NotDefterim</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="kategoriler">Kategoriler</string>
+    <string name="tum_kategorileri_sil">Tüm Kategorileri Sil</string>
+    <string name="tum_notlari_sil">Tüm Notlari Sil</string>
+    <string name="test_notlar_olustur">Test Notlar Oluştur</string>
+    <string name="test_kategorileri_olustur">Test Kategorileri Olustur</string>
+
+    <string-array name="kategoriler">
+
+        <item>Genel</item>
+        <item>İş</item>
+        <item>Okul</item>
+        <item>Aile</item>
+
+    </string-array>
+
+    <string-array name="notlar">
+
+        <item>Markete Git</item>
+        <item>Okula Git</item>
+        <item>İşe Git</item>
+        <item>Fatura Öde</item>
+
+
+    </string-array>
+</resources>

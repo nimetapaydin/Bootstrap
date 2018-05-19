@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.nimet.bestday.MainActivity">
+
+    <item
+        android:id="@+id/action_kategori"
+        android:orderInCategory="100"
+        android:title="@string/kategoriler"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_tum_kategorileri_sil"
+        android:orderInCategory="101"
+        android:title="@string/tum_kategorileri_sil"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_tum_notlari_sil"
+        android:orderInCategory="102"
+        android:title="@string/tum_notlari_sil"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_test_notlar"
+        android:orderInCategory="103"
+        android:title="@string/test_notlar_olustur"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_test_kategoriler"
+        android:orderInCategory="103"
+        android:title="@string/test_kategorileri_olustur"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="200"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>
