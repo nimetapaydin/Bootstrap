@@ -23,7 +23,7 @@
         <activity android:name=".NotActivity" />
         <provider
             android:authorities="com.example.nimet.bestday"
-            android:name=".data.NotDefterimProvider"
+            android:name=".data.BestdayProvider"
             android:exported="false" />
     </application>
 

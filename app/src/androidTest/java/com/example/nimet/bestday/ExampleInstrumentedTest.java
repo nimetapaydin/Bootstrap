@@ -24,3 +24,6 @@ public class ExampleInstrumentedTest {
         assertEquals("com.example.nimet.bestday", appContext.getPackageName());
     }
 }
+
+
+
