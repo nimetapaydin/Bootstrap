@@ -22,8 +22,9 @@
         <activity android:name=".KategoriActivity" />
         <activity android:name=".NotActivity" />
         <provider
-            android:authorities="com.example.nimet.bestday"
+            android:authorities="com.example.nimet.bestday.bestdayprovider"
             android:name=".data.BestdayProvider"
+
             android:exported="false" />
     </application>
 

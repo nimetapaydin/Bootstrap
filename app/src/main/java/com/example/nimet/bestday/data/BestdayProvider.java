@@ -11,7 +11,6 @@ import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.Log;
-import android.widget.Toast;
 
 public class BestdayProvider extends ContentProvider {
 
@@ -132,7 +131,7 @@ public class BestdayProvider extends ContentProvider {
 
         long id= db.insert(tabloAdi, null, values);
         if(id==-1){
-            Log.e("NotDefterimProvider", "INSERT HATA"+uri);
+            Log.e("BestdayProvider", "INSERT HATA"+uri);
             return null;
         }
 
