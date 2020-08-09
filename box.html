@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <!-- Required meta tags -->
+    <!-- viewport sayfa ölçeklendirmesinin nasıl yapılacağına göre bilgi vermekte (bootstrap mobile first mantığıyla çaşır ve ona göre küçültme yapar) --> 
+    <!-- width=device-width = web sayfasının genişliğini, cihazın geniişliğine eşitler -->
+    <!-- initial-scale=1 web sayfası yüklendiğinde yakınlaştırma seviyesini 1 yapar  -->
+    <!-- shrink-to-fit=no web sayfasını ekrana sığdırmak için küçültme yapılmasını engeller -->
+    <!--  -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- Web sayfaları aşağıdan yukarı doğru renderlandığı için en son yüklenen ilki ezer -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+
+    <style>
+      span{
+        height: 75px;
+        width: 75px;
+        background-color: whitesmoke;
+        display: inline-block;
+      }
+      span[class*="rounded"]{
+        background-color: orangered;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="text-center">Kenarlık</h1>
+    <hr>
+    <div class="container">
+      <!--Kenarlık ekleme  -->
+      <span class="border"></span>
+      <span class="border-top"></span>
+      <span class="border-right"></span>
+      <span class="border-bottom"></span>
+      <span class="border-left"></span>
+
+      <hr>
+       <!--Kenarlık kaldırma  -->
+      <span class="border-0"></span>
+      <span class="border-top-0"></span>
+      <span class="border-right-0"></span>
+      <span class="border-bottom-0"></span>
+      <span class="border-left-0"></span>
+
+      <hr>
+       <!--Renkli Kenarlık ekleme  -->
+      <span class="border border-primary" ></span>
+      <span class="border border-secondary " ></span>
+      <span class="border border-success" ></span>
+      <span class="border border-danger" ></span>
+      <span class="border border-warning" ></span>
+      <span class="border border-info" ></span>
+      <span class="border border-light" ></span>
+      <span class="border border-dark" ></span>
+      <span class="border border-white" ></span>
+      
+      <hr>
+      <!--Yuvarlak Kenarlık ekleme  -->
+      <span class="rounded"></span>
+      <span class="rounded-top"></span>
+      <span class="rounded-right"></span>
+      <span class="rounded-bottom"></span>
+      <span class="rounded-left"></span>
+      <span class="rounded-circle"></span>
+      <span class="rounded-0"></span>
+
+    </div>
+    
+
+
+    
+
+    <!-- sıralama önemli önce jquery çalıştığı için ilk onu yazmalıyız -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+<!--  -->
