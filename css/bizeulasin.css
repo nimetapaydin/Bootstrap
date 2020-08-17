@@ -1,5 +1,7 @@
 
   .card {
+    padding-top: 50px;
+    padding-bottom: 50px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
   }
@@ -73,4 +75,13 @@
         width: 100%;
         margin-top: 0;
       }
+    }
+
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: auto;
+      margin-bottom: auto;
+     
     }

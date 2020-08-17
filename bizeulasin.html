@@ -13,63 +13,58 @@
     <h1 class="text-center">Bize Ulaşın</h1>
     <hr>
     
-    <div class="card container">
+    <div class="card container" style="margin-top: 50px;">
       <div class="container row">
-        <div class="col float-left"> 
-          <img src="./ulasin.png" alt="Avatar">
+        <div class="col media center "> 
+          <img src="./ulasin.png" class="mx-auto d-block " alt="Avatar" style="width: 90%; "> 
         </div>
 
         <div class=" container col float-right" >
             <form action="">
               <div class="row">
                 <div class="col-25">
-                  <label for="fname">First Name</label>
+                  <label>Ad Soyad</label>
                 </div>
                 <div class="col-75">
-                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  <input type="text" id="name" placeholder="Ad Soyad..">
                 </div>
               </div>
               <div class="row">
                 <div class="col-25">
-                  <label for="lname">Last Name</label>
+                  <label>Email</label>
                 </div>
                 <div class="col-75">
-                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  <input type="text" id="email" placeholder="Email..">
                 </div>
               </div>
               <div class="row">
                 <div class="col-25">
-                  <label for="country">Country</label>
+                  <label >Şehir</label>
                 </div>
                 <div class="col-75">
-                  <select id="country" name="country">
-                    <option value="australia">Australia</option>
-                    <option value="canada">Canada</option>
-                    <option value="usa">USA</option>
+                  <select id="sehir">
+                    <option>Ankara</option>
+                    <option >İstanbul</option>
+                    <option >Sivas</option>
                   </select>
                 </div>
               </div>
               <div class="row">
                 <div class="col-25">
-                  <label for="subject">Subject</label>
+                  <label>Konu</label>
                 </div>
                 <div class="col-75">
-                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                  <textarea id="konu" placeholder="Yazın..." style="height:200px"></textarea>
                 </div>
               </div>
-              <div class="row btn   pull-right ">
-                <button type="button" class="btn btn-primary">Primary</button>
+              <div class="row btn float-right ">
+                <button type="button" class="btn btn-primary ">Gönder</button>
               </div>
             </form>
         </div>
       </div>
-      
     </div> 
-    
 
-    <!-- sıralama önemli önce jquery çalıştığı için ilk onu yazmalıyız -->
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
