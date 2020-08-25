@@ -13,7 +13,7 @@
   .container {
     
       border-radius: 5px;
-      background-color: #212743;
+      
       padding: 20 px;
   }
 
@@ -62,6 +62,11 @@
       margin-top: 6px;
     }
 
+    .row{
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
     /* Clear floats after the columns */
     .row:after {
       content: "";
@@ -87,12 +92,12 @@
     }
     .bg-plum {
       /* background-color: plum !important;*/
-      background-color: gainsboro !important;
+      background-color: #2f375b !important;
   }
 
   .bosluk{
       padding : 100px 0px;
   }
   .doldur{
-    background-color: #2f375b !important;
+    background-color: #e2e2e2;
   }
