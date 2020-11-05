@@ -48,8 +48,6 @@
       background-color: #45a049;
     }
 
-   
-
     .col-25 {
       float: left;
       width: 25%;
@@ -100,4 +98,22 @@
   }
   .doldur{
     background-color: #100e11;
+  }
+
+  .bosluklariKaldir{
+      padding: 0px 0px 0px 0px;
+      margin: 0px 0px 0px 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+  }
+
+  .soldanBosluk {
+    margin-left: 350px;
+  }
+
+  .sagdanBosluk {
+    margin-left:  250px;
+    margin-right: 350px;
   }
