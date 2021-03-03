@@ -1,0 +1,14 @@
+span{
+    height: 500px;
+    width: 75px;
+    background-color: whitesmoke;
+    display: inline-block;
+  }
+  span[class*="rounded"]{
+    background-color: orangered;
+  }
+
+.image-kek{
+  display: inline-block;
+  margin-right: 225px;
+}
